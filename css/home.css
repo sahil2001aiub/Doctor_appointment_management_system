@@ -1,0 +1,344 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    margin: 10px 0;
+    text-align: center;
+}
+
+nav .btn {
+    background: #fff;
+    color: #007BFF;
+    padding: 10px 15px;
+    margin: 5px;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 1px solid #007BFF;
+}
+
+nav .btn:hover {
+    background: #007BFF;
+    color: #fff;
+}
+
+.appointment-form-section {
+    padding: 10px;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.appointment-form {
+    width: 100%;
+    max-width: 400px;
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left; /* Aligns the content to the left */
+}
+
+.appointment-title {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center; /* Centers the title */
+    color: #333; /* Slightly darker color for visibility */
+}
+
+.appointment-form label {
+    display: block;
+    margin: 5px 0 5px;
+    font-size: 14px;
+}
+
+.appointment-form input,
+.appointment-form select,
+.appointment-form button {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.appointment-form button {
+    background: #007BFF;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.appointment-form button:hover {
+    background: #0056b3;
+}
+
+
+.about-section {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.about-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+}
+
+.about-text {
+    flex: 1;
+}
+
+.about-text h2 {
+    color: #2c3e50;
+}
+
+.about-text ul {
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+.about-image {
+    flex: 1;
+    text-align: center;
+}
+
+.about-image img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.about-cta {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.about-cta .btn {
+    display: inline-block;
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+
+.admin-container {
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.admin-container h1 {
+    text-align: center;
+    color: #333;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+/* Section Titles */
+.admin-container section h2 {
+    color: #007BFF;
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #007BFF;
+    padding-bottom: 5px;
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th,
+table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+table th {
+    background-color: #007BFF;
+    color: #fff;
+    font-weight: bold;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Form within Table Cells */
+table td form {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+table td select {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+table td button {
+    padding: 6px 12px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+table td button:hover {
+    background-color: #0056b3;
+}
+
+/* Messages */
+.success-message {
+    color: #28a745;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.error-message {
+    color: #dc3545;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+
+.form-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.form-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #333;
+}
+
+form input,
+form select,
+form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+form select {
+    background: #fff;
+    cursor: pointer;
+}
+
+form button {
+    background: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form button:hover {
+    background: #0056b3;
+}
+
+.success-message {
+    text-align: center;
+    color: green;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.error-message {
+    text-align: center;
+    color: red;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.doctor-list-section {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+}
+
+.doctor-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.doctor-table th, .doctor-table td {
+    border: 1px solid #007BFF;
+    padding: 10px;
+    text-align: left;
+}
+
+.doctor-table th {
+    background-color: #007BFF;
+    font-weight: bold;
+}
+
+.doctor-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.doctor-table tr:hover {
+    background-color: #f9f9f9;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
